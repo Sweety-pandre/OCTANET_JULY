@@ -1,0 +1,17 @@
+#navbar{
+    
+    background-color:#296159;
+    padding-bottom: 130px;
+    height: 68px;
+    padding-top: 12px;
+}
+.nav-link {
+
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    font-size: 19px;
+    cursor: pointer;
+    color: white;
+}

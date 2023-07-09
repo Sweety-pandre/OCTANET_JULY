@@ -1,0 +1,57 @@
+.services{
+    margin-top: 100px;
+display: flex;
+    padding: 0px 0px 0px 50px;
+    /* background-color: #296159; */
+    background-color: white;
+}
+
+.serviceLeft{
+    width: 50%;
+    padding: 50px;
+   
+    /* color: white; */
+}
+.serviceLeft img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.serviceLeft p{
+    font-size: smaller;
+    font-style: italic;
+    
+}
+.serviceLeft h5 img{
+    height: 25px;
+    width: 25px;
+}
+
+.serviceRight{
+    
+    width: 60%;
+    align-items: center;
+    margin-right: 0;
+    background-image: url('https://travelfoodatlas.com/wp-content/uploads/2020/08/indian-food.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom, #ccc7c700 0%, rgba(219, 212, 212, 0.7) 100%);
+    border-image-slice: 3;
+    
+}
+.serviceRight .container{
+    padding: 100px;
+    display: block;
+    
+}
+.serviceRight form{
+    padding: 50px 40px;
+    background-color:#296159;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    opacity: 90%;
+    min-width: 300px;
+}
+
