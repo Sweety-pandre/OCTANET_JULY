@@ -1,0 +1,119 @@
+* {
+    margin: 0
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+   
+    background-image:url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #060a1b;
+    height: 100vh;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  .app {
+    width: 45%;
+    
+  }
+
+  @media (max-width:768px) {
+    .app {
+      width: 80%;
+    }
+  }
+
+  .app h1 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: .5rem .5rem 0 0;
+    background-color: #16191d;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  .app form {
+    display: flex;
+    width: 100%;
+    background-color: #262e4c;
+  }
+
+  .app form input {
+   border: none;
+    background-color: #3c4257;
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px 10px 35px;
+    width: 90%;
+  }
+
+  .app form button {
+    border: none;
+   
+    color: white;
+    background-color: #3c4257;
+ 
+    font-size: 25px;
+    font-weight: 600;
+    height: 42px;
+    width: 10%;
+  }
+
+  .app ul {
+    list-style: none;
+    color: #030303ea;
+    padding: 0;
+  }
+
+  .app ul li {
+    padding: 11px;
+    background-color: #888b92;
+    border-bottom: 1px solid #3f4869;
+  }
+
+  .check {
+    width: 0.8em;
+    height: 0.8em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    -webkit-appearance: none;
+  }
+
+  .check:checked {
+    background-color: rgba(80, 72, 72, 0.973) ;
+  }
+
+  .task {
+    font-size: 18px;
+    padding: 0 20px;
+    width: fit-content;
+    background: transparent;
+    border: none;
+    font-weight: 540;
+    color: #0e0d0d;
+  }
+
+  .task:focus {
+    outline: none;
+  }
+
+  .app ul li i {
+    float: right;
+    cursor: pointer;
+  }
+
+  .app ul li i:hover {
+    color: rgb(255, 82, 82);
+  }
+
+  .completed {
+    color: rgba(80, 72, 72, 0.973);
+    text-decoration: line-through;
+  }
